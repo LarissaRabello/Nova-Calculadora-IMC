@@ -23,10 +23,14 @@ class MainActivity : AppCompatActivity() {
         btnCalcular.setOnClickListener{
 
             // Recuperando o texto digitado no edtpeso
-            val peso = edtPeso.text
+            val peso: Float = edtPeso.text.toString().toFloat()
 
             // Recuperando o texto digitado na altura
-            val altura = edtAltura.text
+            val altura: Float = edtAltura.text.toString().toFloat()
+
+            val alturaQ2 = altura * altura
+            val resultado = peso / alturaQ2
+
             println("Som do botão")
         }
 
