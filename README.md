@@ -1,13 +1,31 @@
-# Calculadora IMC
-Desc
+# Nova Calculadora IMC
+A Nova Calculadora de IMC foi o segundo aplicativo que desenvolvi com o intuito de avançar nos estudos como desenvolvedora Android e melhorar a experiência do usuário. Participei do desafio 10D Challenge na comunidade DevSpace que consistia em criar o primeiro aplicativo Android em 10 dias e finalizei este segundo em apenas 2.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 Screenshots
 
-## Tecnologias
-Techs
+## Tecnologias usadas no Aplicativo
+* Kotlin;
+* Activity para host de telas;
+* ViewGroup:
+  * RelativeLayout;
+  * LinearLayout;
+* Components de UI:
+  * TextView;
+  * EditText;
+  * Button;
+* Toast para display de mensagens;
+* Intent Explícita para abrir a segunda Activity;
+* FindViewById para recuperar components de UI;
+* String resource para concatenação de textos.
 
+## TO-DO's
+Melhorar a estilização de texto, fontes, linha e espaço entre letras, sombreamente e outras características textuais no aplicativo, assim como cores no gradiente e tabela de IMC.
+Além de trazer uma tela de onboarding e uma quarta tela com consumo de API de nutricionistas e endocrinologistas.
+
+## Author
+Larissa Rabello da Silva (follow me on [LinkedIn](https://www.linkedin.com/in/larissa-rabello/))
 
 ## License
 ```
